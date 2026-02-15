@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- Declaración HTML5 obligatoria -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aerolínea Gonzalez - Vuelos Seguros</title>
+
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Aerolínea Gonzalez</h1>
+    <p>Tu mejor opción para viajar seguro</p>
+</header>
+
+<!-- NAV (MENÚ DE NAVEGACIÓN) -->
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#vuelos">Vuelos</a></li>
+        <li><a href="#catalogo">Catálogo XML</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+
+<!-- SECCIÓN INICIO -->
+<section id="inicio">
+
+    <h2>Bienvenido a Aerolínea Gonzalez</h2>
+
+    <p>
+        Ofrecemos vuelos nacionales e internacionales con la mejor seguridad y comodidad.
+    </p>
+
+    <!-- IMAGEN (REQUISITO DEL PROFESOR) -->
+    <img src="imagenes/avion.jpg" alt="Avión de la aerolínea" width="400">
+
+</section>
+
+
+<!-- SECCIÓN TABLA DE VUELOS -->
+<section id="vuelos">
+
+    <h2>Tabla de vuelos disponibles</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Destino</th>
+            <th>Horario</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr>
+            <td>Ciudad de México</td>
+            <td>10:00 AM</td>
+            <td>$2500</td>
+        </tr>
+
+        <tr>
+            <td>Guadalajara</td>
+            <td>2:00 PM</td>
+            <td>$1800</td>
+        </tr>
+
+        <tr>
+            <td>Monterrey</td>
+            <td>6:00 PM</td>
+            <td>$2200</td>
+        </tr>
+
+    </table>
+
+</section>
+
+
+<!-- SECCIÓN VIDEO (OBJETO EMBEBIDO) -->
+<section>
+
+<h2>Video informativo</h2>
+
+<iframe width="400" height="250"
+src="https://www.youtube.com/embed/eVth4xXqnxg">
+</iframe>
+
+</section>
+
+
+<!-- SECCIÓN XML -->
+<section id="catalogo">
+
+<h2>Ver catálogo (XML)</h2>
+
+<p>
+Puedes ver nuestro catálogo en el siguiente enlace:
+</p>
+
+<a href="datos.xml" target="_blank">Abrir catálogo XML</a>
+
+</section>
+
+
+<!-- FORMULARIO (REQUISITO OBLIGATORIO) -->
+<section id="contacto">
+
+<h2>Formulario de contacto</h2>
+
+<form>
+
+<label>Nombre:</label>
+<input type="text" required>
+
+<br><br>
+
+<label>Correo electrónico:</label>
+
+<!-- AQUI VA TU CORREO -->
+<input type="email"
+placeholder="ejemplo@correo.com"
+required>
+
+<br><br>
+
+<label>Asunto:</label>
+<input type="text" required>
+
+<br><br>
+
+<label>Mensaje:</label>
+<textarea required></textarea>
+
+<br><br>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+</section>
+
+
+<!-- INFORMACIÓN DE CONTACTO (AQUI PONES TUS DATOS) -->
+<section>
