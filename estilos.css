@@ -1,0 +1,84 @@
+/* MODELO DE CAJA */
+*{
+box-sizing: border-box;
+}
+
+/* SELECTOR DE ELEMENTO */
+body{
+
+font-family: Arial;
+margin: 0;
+background-color: #f4f4f4;
+
+}
+
+/* HEADER */
+header{
+
+background-color: darkblue;
+color: white;
+padding: 20px;
+text-align: center;
+
+}
+
+/* NAV FLEXBOX */
+nav ul{
+
+display: flex;
+justify-content: center;
+gap: 20px;
+list-style: none;
+background-color: black;
+padding: 10px;
+
+}
+
+/* SELECTOR DESCENDIENTE */
+nav ul li a{
+
+color: white;
+text-decoration: none;
+
+}
+
+/* PSEUDOCLASE */
+nav ul li a:hover{
+
+color: yellow;
+
+}
+
+/* SECTION */
+section{
+
+background-color: white;
+margin: 20px;
+padding: 20px;
+border: 2px solid gray;
+
+}
+
+/* ID SELECTOR */
+#contacto{
+
+background-color: lightblue;
+
+}
+
+/* TABLA */
+table{
+
+width: 100%;
+
+}
+
+/* FOOTER */
+footer{
+
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+
+}
