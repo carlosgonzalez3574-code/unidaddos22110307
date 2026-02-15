@@ -121,28 +121,30 @@ Puedes ver nuestro catálogo en el siguiente enlace:
 
 <form>
 
-<label>Nombre:</label>
-<input type="text" required>
+<div class="campo">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" required>
+</div>
 
-<br><br>
+<div class="campo">
+<label for="correo">Correo electrónico:</label>
+<input type="email" id="correo" placeholder="usuario@correo.com" required>
+</div>
 
-<label>Correo electrónico:</label>
-<input type="email" placeholder="usuario@correo.com" required>
+<div class="campo">
+<label for="asunto">Asunto:</label>
+<input type="text" id="asunto" required>
+</div>
 
-<br><br>
+<div class="campo">
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" required></textarea>
+</div>
 
-<label>Asunto:</label>
-<input type="text" required>
-
-<br><br>
-
-<label>Mensaje:</label>
-<textarea required></textarea>
-
-<br><br>
-
+<div class="campo">
 <button type="submit">Enviar</button>
-
+</div>
+    
 </form>
 
 </section>
