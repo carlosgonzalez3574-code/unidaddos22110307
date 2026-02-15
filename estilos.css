@@ -89,13 +89,61 @@ width: 100%;
 /* FORMULARIO */
 form {
 
-    width: 400px;
+    width: 500px;
     margin: 20px auto;
     padding: 20px;
 
     border: 2px solid black;
-    border-radius: 10px;
 }
+
+/* Cada fila */
+.fila {
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+/* Etiquetas alineadas a la derecha */
+label {
+
+    width: 180px;
+
+    text-align: right;
+
+    margin-right: 10px;
+
+    font-weight: bold;
+}
+
+/* Inputs alineados a la izquierda */
+input, textarea {
+
+    flex: 1;
+
+    padding: 8px;
+
+    border: 1px solid gray;
+}
+
+/* textarea altura */
+textarea {
+
+    height: 80px;
+}
+
+/* botón */
+button {
+
+    padding: 10px 20px;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+}
+
 
 /* FOOTER */
 footer{
