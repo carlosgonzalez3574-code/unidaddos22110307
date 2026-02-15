@@ -3,6 +3,19 @@
 box-sizing: border-box;
 }
 
+/* Imágenes de la sección vuelos */
+#vuelos img {
+
+    width: 300px;     /* mismo ancho */
+    height: 200px;    /* mismo alto */
+
+    object-fit: cover; /* evita deformación */
+
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
 /* SELECTOR DE ELEMENTO */
 body{
 
