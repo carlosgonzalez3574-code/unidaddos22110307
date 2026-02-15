@@ -86,6 +86,23 @@ width: 100%;
 
 }
 
+
+#mapa {
+
+    text-align: center;
+}
+
+#mapa iframe {
+
+    border: 2px solid black;
+
+    padding: 5px;
+
+    margin-top: 10px;
+}
+
+
+
 /* FORMULARIO */
 form {
 
