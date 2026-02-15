@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+
+<vuelo>
+<destino>Ciudad de México</destino>
+<precio>2500</precio>
+</vuelo>
+
+<vuelo>
+<destino>Guadalajara</destino>
+<precio>1800</precio>
+</vuelo>
+
+<vuelo>
+<destino>Monterrey</destino>
+<precio>2200</precio>
+</vuelo>
+
+</catalogo>
