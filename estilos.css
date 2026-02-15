@@ -86,6 +86,17 @@ width: 100%;
 
 }
 
+/* FORMULARIO */
+form {
+
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 /* FOOTER */
 footer{
 
